@@ -17,6 +17,7 @@ public class Best_Travel_Deals {
 
 	@FindBy(id="flight-origin")
 	WebElement origin;
+	
 
 	@FindBy(id="flight-destination")
 	WebElement destination;
