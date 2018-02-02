@@ -22,6 +22,8 @@ public class SearchFlight extends Driver {
 		b.setDate();
 		b.clickSearch();
 				
+		
+		
 		Lib.getScreenshot(driver,"AfterSearch");
 		
 	}
