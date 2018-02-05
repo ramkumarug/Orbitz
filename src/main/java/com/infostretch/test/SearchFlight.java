@@ -19,8 +19,6 @@ public class SearchFlight extends Driver {
 		b.setOrigin("pune");
 		b.setDestination("coimbatore");
 		b.clickCalender();
-		b.setDate();
-		b.clickSearch();
 		Lib.getScreenshot(driver,"AfterSearch");
 		
 	}
