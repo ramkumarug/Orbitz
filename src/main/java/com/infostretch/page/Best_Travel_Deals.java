@@ -23,7 +23,7 @@ public class Best_Travel_Deals {
 	@FindBy(id="flight-destination")
 	WebElement destination;
 
-	@FindBy(xpath="//span[@class='icon icon-calendar']")
+	@FindBy(xpath="//input[@id='flight-departing']")
 	WebElement calender;
 
 	@FindBy(xpath="//button[@class='datepicker-cal-date' and @data-year='2018' and @data-month='1' and @data-day='26']")
@@ -63,7 +63,7 @@ public class Best_Travel_Deals {
 	}
 	public void clickCalender()
 	{
-		calender.sendKeys("03/01/2018");
+		calender.sendKeys("02/12/2018");
 		calender.sendKeys(Keys.ENTER);
 	}
 	
